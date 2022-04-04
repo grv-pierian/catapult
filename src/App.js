@@ -19,10 +19,13 @@ import { ProductDescription } from './components/Product_Description'
 
 import { Product } from './components/Product'
 
+import FireViewName from './components/FireViewName';
+
 function App() {
   return (
     <>
       <Router>
+        <FireViewName />
         <Header />
         <Switch>
           <Route exact path="/">
